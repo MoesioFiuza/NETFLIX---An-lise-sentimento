@@ -5,7 +5,7 @@ from textblob import TextBlob
 from wordcloud import WordCloud
 import pycountry
 
-caminho_arquivo = r'C:\Users\maest\OneDrive\Área de Trabalho\estudos\netflix_full.csv'
+caminho_arquivo = r'cole aqui o caminho para o arquivo csv'
 df = pd.read_csv(caminho_arquivo)
 
 def traduzir_pais(nome_pais):
